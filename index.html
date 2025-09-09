@@ -16,7 +16,7 @@
 <body>
 
     <div id="question-container">
-        <p id="question">Hey, how are you today?</p>
+        <p id="question">Hey bby, how are you today?</p>
         <div class="col-button">
             <button class="button--wayra button" onclick="handleAnswer('good')">Good</button>
             <button class="button--wayra button" onclick="handleAnswer('bad')">Bad</button>
@@ -24,7 +24,7 @@
     </div>
 
     <div class="footer">
-        <h5>By: Levianth ❤️</h5>
+        <h5>By: Me ❤️</h5>
     </div>
 
 
@@ -38,12 +38,12 @@
                 case 1:
                     if (answer === 'bad') {
                         questionContainer.innerHTML = `
-                            <p id="question">Okay it’s fine, Hope your day will be fine!</p>
+                            <p id="question">It’s alright bby, you're doing great today and I'm proud of you!</p>
                         `;
                         break;
                     }
                     questionContainer.innerHTML = `
-                        <p id="question">Tired day right?</p>
+                        <p id="question">Tired day, right?</p>
                         <div class="col-button">
                         <button class="button--wayra button" onclick="handleAnswer('tiredYea')">Yea</button>
                         <button class="button--wayra button" onclick="handleAnswer('tiredNope')">Nope</button>
@@ -52,7 +52,7 @@
                     break;
                 case 2:
                     questionContainer.innerHTML = `
-                        <p id="question">But do you know something that makes you happy?</p>
+                        <p id="question">Do you know something that can makes you smile?</p>
                         <div class="col-button">
                         <button class="button--wayra button" onclick="handleAnswer('whatsIt')">What’s it?</button>
                         <button class="button--wayra button" onclick="handleAnswer('nope')">Nope</button>
@@ -61,7 +61,7 @@
                     break;
                 case 3:
                     questionContainer.innerHTML = `
-                        <p id="question">Life is like a Flowers and do you know why?</p>
+                        <p id="question">Life is like a flowers and do you know why?</p>
                         <div class="col-button">
                         <button class="button--wayra button" onclick="handleAnswer('why')">Why?</button>
                         <button class="button--wayra button" onclick="handleAnswer('nope')">Nope</button>
@@ -70,20 +70,20 @@
                     break;
                 case 4:
                     questionContainer.innerHTML = `
-                        <p id="question">"Because it grows into something beautiful <br> So too do you become truly beautiful than the flowers it is."</p>
+                        <p id="question">"Because it grows into something beautiful <br> And you're so beautiful like flowers, I love your smile, your eyes, everything about you. I love you bby."</p>
                         <button class="button--wayra button" onclick="handleAnswer('thanks')">Thanks!</button>
                     `;
                     break;
                 case 5:
                     questionContainer.innerHTML = `
-                        <p id="question">And you want to know how your flower looks? <br> It is so beauty like you ❤️</p>
+                        <p id="question">And you want to know how your flowers looks? <br> It's beautiful like you ❤️</p>
                         <a href="flowers.html"> <button class="button--wayra button" onclick="handleAnswer('andYouWantTo')">Yes!</button> </a>
                     `;
                     break;
                 default:
                     if (answer === 'tiredNope') {
                         questionContainer.innerHTML = `
-                            <p id="question">Okay it’s fine, Hope your day will be fine!</p>
+                            <p id="question">It’s alright bby, you're doing great today and I'm proud of you!</p>
                         `;
                         break;
                     } else if (answer === 'tiredYea') {
@@ -101,3 +101,4 @@
 </body>
 
 </html>
+
